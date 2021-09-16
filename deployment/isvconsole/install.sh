@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "## Installing all 'testapp'"
+echo "## Installing application 'testapp'"
 date
 echo "## done"
-exit 1
+exit 0
