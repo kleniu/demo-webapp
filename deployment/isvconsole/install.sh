@@ -6,6 +6,8 @@ export OCPSERVER=https://c113-e.eu-de.containers.cloud.ibm.com:30123
 export APPNAME=test-app
 export APPVER=V1
 
+cd `dirname $0`
+
 date
 
 ## Login
