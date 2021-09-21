@@ -1,10 +1,10 @@
 #!/bin/bash
 
 echo "## Installing application 'testapp'"
-export OCPTOKEN=sha256~XtdtzfNvI-E4L_YCb4u9OZOE50YnD2iZpt19RRREPjI
-export OCPSERVER=https://c113-e.eu-de.containers.cloud.ibm.com:30123
-export APPNAME=test-app
-export APPVER=V1
+export APPNAME=$1
+export APPVER=$2
+export OCPTOKEN=$3
+export OCPSERVER=$4
 
 cd `dirname $0`
 
