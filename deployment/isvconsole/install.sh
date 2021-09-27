@@ -3,8 +3,6 @@ export APPNAME=$1
 export APPVER=$2
 
 echo "## Installing application " $APPNAME " version " $APPVER
-
-cd `dirname $0`
 echo "## Start " `date`
 
 ## Build images
